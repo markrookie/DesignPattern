@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  ChainOfResponsibilityPattern
+//  DesignPattern
 //
-//  Created by mark on 3/24/16.
+//  Created by mark on 5/25/16.
 //  Copyright © 2016 Max. All rights reserved.
 //
 
