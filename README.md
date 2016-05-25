@@ -1,2 +1,2 @@
 # DesignPattern
-a collection of design patterns
+a collection of swift implemented design patterns 
