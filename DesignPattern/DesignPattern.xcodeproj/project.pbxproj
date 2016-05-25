@@ -25,6 +25,13 @@
 		B284D6F41CF5514600CB6463 /* Son.swift in Sources */ = {isa = PBXBuildFile; fileRef = B284D6EB1CF5514600CB6463 /* Son.swift */; };
 		B284D6F81CF5519D00CB6463 /* Benz.swift in Sources */ = {isa = PBXBuildFile; fileRef = B284D6F61CF5519D00CB6463 /* Benz.swift */; };
 		B284D6F91CF5519D00CB6463 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B284D6F71CF5519D00CB6463 /* Driver.swift */; };
+		B284D6FB1CF5542700CB6463 /* ChainOfResponsibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B284D6FA1CF5542700CB6463 /* ChainOfResponsibility.swift */; };
+		B284D6FD1CF5543900CB6463 /* DesignPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = B284D6FC1CF5543900CB6463 /* DesignPattern.swift */; };
+		B284D6FF1CF554EF00CB6463 /* LiskovSubstitutionPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = B284D6FE1CF554EF00CB6463 /* LiskovSubstitutionPrinciple.swift */; };
+		B284D7011CF5555500CB6463 /* DependInversionPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = B284D7001CF5555500CB6463 /* DependInversionPrinciple.swift */; };
+		B284D7031CF5595200CB6463 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B284D7021CF5595200CB6463 /* Vehicle.swift */; };
+		B284D7051CF559A000CB6463 /* BMW.swift in Sources */ = {isa = PBXBuildFile; fileRef = B284D7041CF559A000CB6463 /* BMW.swift */; };
+		B284D7071CF559D400CB6463 /* Discovery4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B284D7061CF559D400CB6463 /* Discovery4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +55,13 @@
 		B284D6EB1CF5514600CB6463 /* Son.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Son.swift; sourceTree = "<group>"; };
 		B284D6F61CF5519D00CB6463 /* Benz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Benz.swift; sourceTree = "<group>"; };
 		B284D6F71CF5519D00CB6463 /* Driver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
+		B284D6FA1CF5542700CB6463 /* ChainOfResponsibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChainOfResponsibility.swift; sourceTree = "<group>"; };
+		B284D6FC1CF5543900CB6463 /* DesignPattern.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignPattern.swift; sourceTree = "<group>"; };
+		B284D6FE1CF554EF00CB6463 /* LiskovSubstitutionPrinciple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiskovSubstitutionPrinciple.swift; sourceTree = "<group>"; };
+		B284D7001CF5555500CB6463 /* DependInversionPrinciple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependInversionPrinciple.swift; sourceTree = "<group>"; };
+		B284D7021CF5595200CB6463 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		B284D7041CF559A000CB6463 /* BMW.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMW.swift; sourceTree = "<group>"; };
+		B284D7061CF559D400CB6463 /* Discovery4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Discovery4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +96,7 @@
 			children = (
 				B284D6CB1CF5502F00CB6463 /* AppDelegate.swift */,
 				B284D6CD1CF5502F00CB6463 /* ViewController.swift */,
+				B284D6FC1CF5543900CB6463 /* DesignPattern.swift */,
 				B284D6DD1CF550BE00CB6463 /* ChainOfResponsibility */,
 				B284D6F51CF5519D00CB6463 /* DependInversionPrinciple */,
 				B284D6E21CF5514600CB6463 /* LiskovSubstitutionPrinciple */,
@@ -97,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				B284D6DE1CF550BE00CB6463 /* ATM.swift */,
+				B284D6FA1CF5542700CB6463 /* ChainOfResponsibility.swift */,
 				B284D6DF1CF550BE00CB6463 /* Money.swift */,
 			);
 			path = ChainOfResponsibility;
@@ -106,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				B284D6E31CF5514600CB6463 /* AUG.swift */,
+				B284D6FE1CF554EF00CB6463 /* LiskovSubstitutionPrinciple.swift */,
 				B284D6E41CF5514600CB6463 /* Father.swift */,
 				B284D6E51CF5514600CB6463 /* Gun.swift */,
 				B284D6E61CF5514600CB6463 /* HandGun.swift */,
@@ -122,6 +139,10 @@
 			isa = PBXGroup;
 			children = (
 				B284D6F61CF5519D00CB6463 /* Benz.swift */,
+				B284D7041CF559A000CB6463 /* BMW.swift */,
+				B284D7061CF559D400CB6463 /* Discovery4.swift */,
+				B284D7001CF5555500CB6463 /* DependInversionPrinciple.swift */,
+				B284D7021CF5595200CB6463 /* Vehicle.swift */,
 				B284D6F71CF5519D00CB6463 /* Driver.swift */,
 			);
 			path = DependInversionPrinciple;
@@ -199,19 +220,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				B284D6F91CF5519D00CB6463 /* Driver.swift in Sources */,
+				B284D6FF1CF554EF00CB6463 /* LiskovSubstitutionPrinciple.swift in Sources */,
+				B284D6FD1CF5543900CB6463 /* DesignPattern.swift in Sources */,
 				B284D6F81CF5519D00CB6463 /* Benz.swift in Sources */,
 				B284D6F21CF5514600CB6463 /* Snipper.swift in Sources */,
 				B284D6EE1CF5514600CB6463 /* Gun.swift in Sources */,
 				B284D6E01CF550BE00CB6463 /* ATM.swift in Sources */,
 				B284D6CE1CF5502F00CB6463 /* ViewController.swift in Sources */,
+				B284D7031CF5595200CB6463 /* Vehicle.swift in Sources */,
 				B284D6E11CF550BE00CB6463 /* Money.swift in Sources */,
+				B284D7051CF559A000CB6463 /* BMW.swift in Sources */,
 				B284D6F41CF5514600CB6463 /* Son.swift in Sources */,
 				B284D6EC1CF5514600CB6463 /* AUG.swift in Sources */,
 				B284D6F11CF5514600CB6463 /* RifleGun.swift in Sources */,
 				B284D6EF1CF5514600CB6463 /* HandGun.swift in Sources */,
+				B284D7071CF559D400CB6463 /* Discovery4.swift in Sources */,
 				B284D6CC1CF5502F00CB6463 /* AppDelegate.swift in Sources */,
+				B284D7011CF5555500CB6463 /* DependInversionPrinciple.swift in Sources */,
 				B284D6F01CF5514600CB6463 /* MachineGun.swift in Sources */,
 				B284D6F31CF5514600CB6463 /* Soldier.swift in Sources */,
+				B284D6FB1CF5542700CB6463 /* ChainOfResponsibility.swift in Sources */,
 				B284D6ED1CF5514600CB6463 /* Father.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

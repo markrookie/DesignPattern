@@ -10,8 +10,16 @@ import Foundation
 
 class Driver {
     
-    func drive(benz: Benz) {
-        benz.run()
+    private var name = "unkonw"
+    
+    init(name: String) {
+        self.name = name
+    }
+    
+    func drive(vehicle: Vehicle) {
+        let vehicleName = String(vehicle)
+        print("\(name) dirves \(vehicleName)")
+        vehicle.run()
     }
     
 }

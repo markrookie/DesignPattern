@@ -1,6 +1,6 @@
 //
-//  Benz.swift
-//  DIP
+//  Vehicle.swift
+//  DesignPattern
 //
 //  Created by mark on 5/25/16.
 //  Copyright © 2016 Max. All rights reserved.
@@ -8,10 +8,10 @@
 
 import Foundation
 
-class Benz: Vehicle {
+class Vehicle {
     
-    override func run() {
-        print("奔驰开始运行 ############")
+    func run() {
+        print("Vehicle run #########")
     }
     
 }
