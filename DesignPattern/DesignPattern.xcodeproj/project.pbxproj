@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B21F2AB71CFEB774008E3419 /* OpenClosedPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21F2AB61CFEB774008E3419 /* OpenClosedPrinciple.swift */; };
+		B21F2AB91CFEBAEE008E3419 /* BankProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21F2AB81CFEBAEE008E3419 /* BankProcess.swift */; };
+		B21F2ABB1CFEBB7E008E3419 /* DepositProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21F2ABA1CFEBB7E008E3419 /* DepositProcess.swift */; };
+		B21F2ABD1CFEBC21008E3419 /* TransferProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21F2ABC1CFEBC21008E3419 /* TransferProcess.swift */; };
+		B21F2ABF1CFEBC5A008E3419 /* DrawMoneyProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21F2ABE1CFEBC5A008E3419 /* DrawMoneyProcess.swift */; };
+		B21F2AC11CFEBC9C008E3419 /* BankStaff.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21F2AC01CFEBC9C008E3419 /* BankStaff.swift */; };
+		B21F2AC31CFEBE5D008E3419 /* FundProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21F2AC21CFEBE5D008E3419 /* FundProcess.swift */; };
 		B236D7A41CF7E8C000DD46D3 /* CastingDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B236D7A31CF7E8C000DD46D3 /* CastingDirector.swift */; };
 		B236D7A61CF7EA1100DD46D3 /* GoodBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = B236D7A51CF7EA1100DD46D3 /* GoodBody.swift */; };
 		B236D7AA1CF7EF5100DD46D3 /* GreatTempermament.swift in Sources */ = {isa = PBXBuildFile; fileRef = B236D7A91CF7EF5100DD46D3 /* GreatTempermament.swift */; };
@@ -43,6 +50,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B21F2AB61CFEB774008E3419 /* OpenClosedPrinciple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenClosedPrinciple.swift; sourceTree = "<group>"; };
+		B21F2AB81CFEBAEE008E3419 /* BankProcess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankProcess.swift; sourceTree = "<group>"; };
+		B21F2ABA1CFEBB7E008E3419 /* DepositProcess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepositProcess.swift; sourceTree = "<group>"; };
+		B21F2ABC1CFEBC21008E3419 /* TransferProcess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferProcess.swift; sourceTree = "<group>"; };
+		B21F2ABE1CFEBC5A008E3419 /* DrawMoneyProcess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawMoneyProcess.swift; sourceTree = "<group>"; };
+		B21F2AC01CFEBC9C008E3419 /* BankStaff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankStaff.swift; sourceTree = "<group>"; };
+		B21F2AC21CFEBE5D008E3419 /* FundProcess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FundProcess.swift; sourceTree = "<group>"; };
 		B236D7A31CF7E8C000DD46D3 /* CastingDirector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastingDirector.swift; sourceTree = "<group>"; };
 		B236D7A51CF7EA1100DD46D3 /* GoodBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodBody.swift; sourceTree = "<group>"; };
 		B236D7A91CF7EF5100DD46D3 /* GreatTempermament.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreatTempermament.swift; sourceTree = "<group>"; };
@@ -91,6 +105,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B21F2AB51CFEB758008E3419 /* OpenClosedPrinciple */ = {
+			isa = PBXGroup;
+			children = (
+				B21F2AB61CFEB774008E3419 /* OpenClosedPrinciple.swift */,
+				B21F2AB81CFEBAEE008E3419 /* BankProcess.swift */,
+				B21F2ABA1CFEBB7E008E3419 /* DepositProcess.swift */,
+				B21F2ABC1CFEBC21008E3419 /* TransferProcess.swift */,
+				B21F2ABE1CFEBC5A008E3419 /* DrawMoneyProcess.swift */,
+				B21F2AC21CFEBE5D008E3419 /* FundProcess.swift */,
+				B21F2AC01CFEBC9C008E3419 /* BankStaff.swift */,
+			);
+			path = OpenClosedPrinciple;
+			sourceTree = "<group>";
+		};
 		B236D7A21CF7E68200DD46D3 /* InterfaceSegregationPrinciple */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +156,7 @@
 				B284D6CB1CF5502F00CB6463 /* AppDelegate.swift */,
 				B284D6CD1CF5502F00CB6463 /* ViewController.swift */,
 				B284D6FC1CF5543900CB6463 /* DesignPattern.swift */,
+				B21F2AB51CFEB758008E3419 /* OpenClosedPrinciple */,
 				B236D7A21CF7E68200DD46D3 /* InterfaceSegregationPrinciple */,
 				B284D6DD1CF550BE00CB6463 /* ChainOfResponsibility */,
 				B284D6F51CF5519D00CB6463 /* DependInversionPrinciple */,
@@ -257,15 +286,19 @@
 				B236D7B41CF7F55700DD46D3 /* Girl.swift in Sources */,
 				B284D6FD1CF5543900CB6463 /* DesignPattern.swift in Sources */,
 				B284D6F81CF5519D00CB6463 /* Benz.swift in Sources */,
+				B21F2AB71CFEB774008E3419 /* OpenClosedPrinciple.swift in Sources */,
+				B21F2AB91CFEBAEE008E3419 /* BankProcess.swift in Sources */,
 				B284D6F21CF5514600CB6463 /* Snipper.swift in Sources */,
 				B284D6EE1CF5514600CB6463 /* Gun.swift in Sources */,
 				B284D6E01CF550BE00CB6463 /* ATM.swift in Sources */,
 				B284D6CE1CF5502F00CB6463 /* ViewController.swift in Sources */,
+				B21F2ABD1CFEBC21008E3419 /* TransferProcess.swift in Sources */,
 				B236D7B61CF7FB8C00DD46D3 /* InterfaceSegregation.swift in Sources */,
 				B284D7031CF5595200CB6463 /* Vehicle.swift in Sources */,
 				B236D7A61CF7EA1100DD46D3 /* GoodBody.swift in Sources */,
 				B236D7AA1CF7EF5100DD46D3 /* GreatTempermament.swift in Sources */,
 				B284D6E11CF550BE00CB6463 /* Money.swift in Sources */,
+				B21F2AC11CFEBC9C008E3419 /* BankStaff.swift in Sources */,
 				B284D7051CF559A000CB6463 /* BMW.swift in Sources */,
 				B284D6F41CF5514600CB6463 /* Son.swift in Sources */,
 				B284D6EC1CF5514600CB6463 /* AUG.swift in Sources */,
@@ -273,7 +306,9 @@
 				B284D6EF1CF5514600CB6463 /* HandGun.swift in Sources */,
 				B284D7071CF559D400CB6463 /* Discovery4.swift in Sources */,
 				B284D6CC1CF5502F00CB6463 /* AppDelegate.swift in Sources */,
+				B21F2AC31CFEBE5D008E3419 /* FundProcess.swift in Sources */,
 				B236D7AC1CF7EF8100DD46D3 /* PrettyGirl.swift in Sources */,
+				B21F2ABB1CFEBB7E008E3419 /* DepositProcess.swift in Sources */,
 				B284D7011CF5555500CB6463 /* DependInversionPrinciple.swift in Sources */,
 				B284D6F01CF5514600CB6463 /* MachineGun.swift in Sources */,
 				B236D7BA1CF7FC3400DD46D3 /* FoxCastingDirector.swift in Sources */,
@@ -281,6 +316,7 @@
 				B236D7A41CF7E8C000DD46D3 /* CastingDirector.swift in Sources */,
 				B284D6FB1CF5542700CB6463 /* ChainOfResponsibility.swift in Sources */,
 				B284D6ED1CF5514600CB6463 /* Father.swift in Sources */,
+				B21F2ABF1CFEBC5A008E3419 /* DrawMoneyProcess.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

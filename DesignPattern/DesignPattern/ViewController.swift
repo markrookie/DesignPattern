@@ -19,8 +19,10 @@ class ViewController: UIViewController {
 //        liskovSubstitutionPrinciple.run()
 //        let dependInversionPrinciple = DependInversionPrinciple()
 //        dependInversionPrinciple.run()
-        let interfaceSegregationPrinciple = InterfaceSegregation()
-        interfaceSegregationPrinciple.run()
+//        let interfaceSegregationPrinciple = InterfaceSegregation()
+//        interfaceSegregationPrinciple.run()
+        let openClosedPrinciple = OpenClosedPrinciple()
+        openClosedPrinciple.run()
     }
 
     override func didReceiveMemoryWarning() {
