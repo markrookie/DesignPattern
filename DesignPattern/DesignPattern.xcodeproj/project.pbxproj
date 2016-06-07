@@ -22,6 +22,13 @@
 		B236D7B41CF7F55700DD46D3 /* Girl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B236D7B31CF7F55700DD46D3 /* Girl.swift */; };
 		B236D7B61CF7FB8C00DD46D3 /* InterfaceSegregation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B236D7B51CF7FB8C00DD46D3 /* InterfaceSegregation.swift */; };
 		B236D7BA1CF7FC3400DD46D3 /* FoxCastingDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B236D7B91CF7FC3400DD46D3 /* FoxCastingDirector.swift */; };
+		B23DB4AE1D06B29A0002FD6E /* InstallSoftware.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23DB4AD1D06B29A0002FD6E /* InstallSoftware.swift */; };
+		B23DB4B01D06B3440002FD6E /* Wizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23DB4AF1D06B3440002FD6E /* Wizard.swift */; };
+		B246D5A81D06A89B00967C07 /* LeastKnowledgePrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = B246D5A71D06A89B00967C07 /* LeastKnowledgePrinciple.swift */; };
+		B246D5AA1D06A90000967C07 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = B246D5A91D06A90000967C07 /* Teacher.swift */; };
+		B246D5AC1D06A9A000967C07 /* GroupLeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B246D5AB1D06A9A000967C07 /* GroupLeader.swift */; };
+		B246D5B21D06AB3200967C07 /* FemaleStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B246D5B11D06AB3200967C07 /* FemaleStudent.swift */; };
+		B246D5B41D06AB8C00967C07 /* SchoolClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B246D5B31D06AB8C00967C07 /* SchoolClass.swift */; };
 		B284D6CC1CF5502F00CB6463 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B284D6CB1CF5502F00CB6463 /* AppDelegate.swift */; };
 		B284D6CE1CF5502F00CB6463 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B284D6CD1CF5502F00CB6463 /* ViewController.swift */; };
 		B284D6D11CF5502F00CB6463 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B284D6CF1CF5502F00CB6463 /* Main.storyboard */; };
@@ -65,6 +72,13 @@
 		B236D7B31CF7F55700DD46D3 /* Girl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Girl.swift; sourceTree = "<group>"; };
 		B236D7B51CF7FB8C00DD46D3 /* InterfaceSegregation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InterfaceSegregation.swift; sourceTree = "<group>"; };
 		B236D7B91CF7FC3400DD46D3 /* FoxCastingDirector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoxCastingDirector.swift; sourceTree = "<group>"; };
+		B23DB4AD1D06B29A0002FD6E /* InstallSoftware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstallSoftware.swift; sourceTree = "<group>"; };
+		B23DB4AF1D06B3440002FD6E /* Wizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wizard.swift; sourceTree = "<group>"; };
+		B246D5A71D06A89B00967C07 /* LeastKnowledgePrinciple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeastKnowledgePrinciple.swift; sourceTree = "<group>"; };
+		B246D5A91D06A90000967C07 /* Teacher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		B246D5AB1D06A9A000967C07 /* GroupLeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupLeader.swift; sourceTree = "<group>"; };
+		B246D5B11D06AB3200967C07 /* FemaleStudent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FemaleStudent.swift; sourceTree = "<group>"; };
+		B246D5B31D06AB8C00967C07 /* SchoolClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolClass.swift; sourceTree = "<group>"; };
 		B284D6C81CF5502F00CB6463 /* DesignPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B284D6CB1CF5502F00CB6463 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B284D6CD1CF5502F00CB6463 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -134,6 +148,20 @@
 			path = InterfaceSegregationPrinciple;
 			sourceTree = "<group>";
 		};
+		B246D5A61D06A86E00967C07 /* LeastKnowledgePrinciple */ = {
+			isa = PBXGroup;
+			children = (
+				B246D5A71D06A89B00967C07 /* LeastKnowledgePrinciple.swift */,
+				B246D5A91D06A90000967C07 /* Teacher.swift */,
+				B246D5AB1D06A9A000967C07 /* GroupLeader.swift */,
+				B246D5B31D06AB8C00967C07 /* SchoolClass.swift */,
+				B246D5B11D06AB3200967C07 /* FemaleStudent.swift */,
+				B23DB4AD1D06B29A0002FD6E /* InstallSoftware.swift */,
+				B23DB4AF1D06B3440002FD6E /* Wizard.swift */,
+			);
+			path = LeastKnowledgePrinciple;
+			sourceTree = "<group>";
+		};
 		B284D6BF1CF5502E00CB6463 = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +184,7 @@
 				B284D6CB1CF5502F00CB6463 /* AppDelegate.swift */,
 				B284D6CD1CF5502F00CB6463 /* ViewController.swift */,
 				B284D6FC1CF5543900CB6463 /* DesignPattern.swift */,
+				B246D5A61D06A86E00967C07 /* LeastKnowledgePrinciple */,
 				B21F2AB51CFEB758008E3419 /* OpenClosedPrinciple */,
 				B236D7A21CF7E68200DD46D3 /* InterfaceSegregationPrinciple */,
 				B284D6DD1CF550BE00CB6463 /* ChainOfResponsibility */,
@@ -280,11 +309,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B23DB4B01D06B3440002FD6E /* Wizard.swift in Sources */,
 				B284D6F91CF5519D00CB6463 /* Driver.swift in Sources */,
 				B236D7B01CF7F35400DD46D3 /* AwesomePrettyGirl.swift in Sources */,
 				B284D6FF1CF554EF00CB6463 /* LiskovSubstitutionPrinciple.swift in Sources */,
 				B236D7B41CF7F55700DD46D3 /* Girl.swift in Sources */,
 				B284D6FD1CF5543900CB6463 /* DesignPattern.swift in Sources */,
+				B246D5B21D06AB3200967C07 /* FemaleStudent.swift in Sources */,
 				B284D6F81CF5519D00CB6463 /* Benz.swift in Sources */,
 				B21F2AB71CFEB774008E3419 /* OpenClosedPrinciple.swift in Sources */,
 				B21F2AB91CFEBAEE008E3419 /* BankProcess.swift in Sources */,
@@ -295,12 +326,14 @@
 				B21F2ABD1CFEBC21008E3419 /* TransferProcess.swift in Sources */,
 				B236D7B61CF7FB8C00DD46D3 /* InterfaceSegregation.swift in Sources */,
 				B284D7031CF5595200CB6463 /* Vehicle.swift in Sources */,
+				B23DB4AE1D06B29A0002FD6E /* InstallSoftware.swift in Sources */,
 				B236D7A61CF7EA1100DD46D3 /* GoodBody.swift in Sources */,
 				B236D7AA1CF7EF5100DD46D3 /* GreatTempermament.swift in Sources */,
 				B284D6E11CF550BE00CB6463 /* Money.swift in Sources */,
 				B21F2AC11CFEBC9C008E3419 /* BankStaff.swift in Sources */,
 				B284D7051CF559A000CB6463 /* BMW.swift in Sources */,
 				B284D6F41CF5514600CB6463 /* Son.swift in Sources */,
+				B246D5B41D06AB8C00967C07 /* SchoolClass.swift in Sources */,
 				B284D6EC1CF5514600CB6463 /* AUG.swift in Sources */,
 				B284D6F11CF5514600CB6463 /* RifleGun.swift in Sources */,
 				B284D6EF1CF5514600CB6463 /* HandGun.swift in Sources */,
@@ -310,12 +343,15 @@
 				B236D7AC1CF7EF8100DD46D3 /* PrettyGirl.swift in Sources */,
 				B21F2ABB1CFEBB7E008E3419 /* DepositProcess.swift in Sources */,
 				B284D7011CF5555500CB6463 /* DependInversionPrinciple.swift in Sources */,
+				B246D5AA1D06A90000967C07 /* Teacher.swift in Sources */,
 				B284D6F01CF5514600CB6463 /* MachineGun.swift in Sources */,
 				B236D7BA1CF7FC3400DD46D3 /* FoxCastingDirector.swift in Sources */,
 				B284D6F31CF5514600CB6463 /* Soldier.swift in Sources */,
 				B236D7A41CF7E8C000DD46D3 /* CastingDirector.swift in Sources */,
 				B284D6FB1CF5542700CB6463 /* ChainOfResponsibility.swift in Sources */,
+				B246D5A81D06A89B00967C07 /* LeastKnowledgePrinciple.swift in Sources */,
 				B284D6ED1CF5514600CB6463 /* Father.swift in Sources */,
+				B246D5AC1D06A9A000967C07 /* GroupLeader.swift in Sources */,
 				B21F2ABF1CFEBC5A008E3419 /* DrawMoneyProcess.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
