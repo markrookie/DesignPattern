@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B20F3C371D13D738007E9E77 /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20F3C361D13D738007E9E77 /* Human.swift */; };
+		B20F3C391D13D880007E9E77 /* BlackHuman.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20F3C381D13D880007E9E77 /* BlackHuman.swift */; };
+		B20F3C3B1D13DA31007E9E77 /* WhiteHuman.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20F3C3A1D13DA31007E9E77 /* WhiteHuman.swift */; };
+		B20F3C3D1D13DA7A007E9E77 /* YellowHuman.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20F3C3C1D13DA7A007E9E77 /* YellowHuman.swift */; };
+		B20F3C3F1D13DB5C007E9E77 /* HumanFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20F3C3E1D13DB5C007E9E77 /* HumanFactory.swift */; };
 		B21F2AB71CFEB774008E3419 /* OpenClosedPrinciple.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21F2AB61CFEB774008E3419 /* OpenClosedPrinciple.swift */; };
-		B21F2AB91CFEBAEE008E3419 /* BankProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21F2AB81CFEBAEE008E3419 /* BankProcess.swift */; };
-		B21F2ABB1CFEBB7E008E3419 /* DepositProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21F2ABA1CFEBB7E008E3419 /* DepositProcess.swift */; };
-		B21F2ABD1CFEBC21008E3419 /* TransferProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21F2ABC1CFEBC21008E3419 /* TransferProcess.swift */; };
-		B21F2ABF1CFEBC5A008E3419 /* DrawMoneyProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21F2ABE1CFEBC5A008E3419 /* DrawMoneyProcess.swift */; };
-		B21F2AC11CFEBC9C008E3419 /* BankStaff.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21F2AC01CFEBC9C008E3419 /* BankStaff.swift */; };
-		B21F2AC31CFEBE5D008E3419 /* FundProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21F2AC21CFEBE5D008E3419 /* FundProcess.swift */; };
 		B236D7A41CF7E8C000DD46D3 /* CastingDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B236D7A31CF7E8C000DD46D3 /* CastingDirector.swift */; };
 		B236D7A61CF7EA1100DD46D3 /* GoodBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = B236D7A51CF7EA1100DD46D3 /* GoodBody.swift */; };
 		B236D7AA1CF7EF5100DD46D3 /* GreatTempermament.swift in Sources */ = {isa = PBXBuildFile; fileRef = B236D7A91CF7EF5100DD46D3 /* GreatTempermament.swift */; };
@@ -54,16 +53,21 @@
 		B284D7031CF5595200CB6463 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B284D7021CF5595200CB6463 /* Vehicle.swift */; };
 		B284D7051CF559A000CB6463 /* BMW.swift in Sources */ = {isa = PBXBuildFile; fileRef = B284D7041CF559A000CB6463 /* BMW.swift */; };
 		B284D7071CF559D400CB6463 /* Discovery4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B284D7061CF559D400CB6463 /* Discovery4.swift */; };
+		B28C37F11D0D02710071EC52 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28C37F01D0D02710071EC52 /* Book.swift */; };
+		B28C37F31D0D03350071EC52 /* NovelBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28C37F21D0D03350071EC52 /* NovelBook.swift */; };
+		B28C37F51D0D05670071EC52 /* BookStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28C37F41D0D05670071EC52 /* BookStore.swift */; };
+		B28C37F71D0D0BBE0071EC52 /* DiscountNovelBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28C37F61D0D0BBE0071EC52 /* DiscountNovelBook.swift */; };
+		B28C37FB1D0D112C0071EC52 /* TechnicalBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28C37FA1D0D112C0071EC52 /* TechnicalBook.swift */; };
+		B28C37FD1D0D11620071EC52 /* ComputerBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = B28C37FC1D0D11620071EC52 /* ComputerBook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B20F3C361D13D738007E9E77 /* Human.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Human.swift; sourceTree = "<group>"; };
+		B20F3C381D13D880007E9E77 /* BlackHuman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackHuman.swift; sourceTree = "<group>"; };
+		B20F3C3A1D13DA31007E9E77 /* WhiteHuman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteHuman.swift; sourceTree = "<group>"; };
+		B20F3C3C1D13DA7A007E9E77 /* YellowHuman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YellowHuman.swift; sourceTree = "<group>"; };
+		B20F3C3E1D13DB5C007E9E77 /* HumanFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HumanFactory.swift; sourceTree = "<group>"; };
 		B21F2AB61CFEB774008E3419 /* OpenClosedPrinciple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenClosedPrinciple.swift; sourceTree = "<group>"; };
-		B21F2AB81CFEBAEE008E3419 /* BankProcess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankProcess.swift; sourceTree = "<group>"; };
-		B21F2ABA1CFEBB7E008E3419 /* DepositProcess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepositProcess.swift; sourceTree = "<group>"; };
-		B21F2ABC1CFEBC21008E3419 /* TransferProcess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferProcess.swift; sourceTree = "<group>"; };
-		B21F2ABE1CFEBC5A008E3419 /* DrawMoneyProcess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawMoneyProcess.swift; sourceTree = "<group>"; };
-		B21F2AC01CFEBC9C008E3419 /* BankStaff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankStaff.swift; sourceTree = "<group>"; };
-		B21F2AC21CFEBE5D008E3419 /* FundProcess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FundProcess.swift; sourceTree = "<group>"; };
 		B236D7A31CF7E8C000DD46D3 /* CastingDirector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CastingDirector.swift; sourceTree = "<group>"; };
 		B236D7A51CF7EA1100DD46D3 /* GoodBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodBody.swift; sourceTree = "<group>"; };
 		B236D7A91CF7EF5100DD46D3 /* GreatTempermament.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreatTempermament.swift; sourceTree = "<group>"; };
@@ -106,6 +110,12 @@
 		B284D7021CF5595200CB6463 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		B284D7041CF559A000CB6463 /* BMW.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMW.swift; sourceTree = "<group>"; };
 		B284D7061CF559D400CB6463 /* Discovery4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Discovery4.swift; sourceTree = "<group>"; };
+		B28C37F01D0D02710071EC52 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		B28C37F21D0D03350071EC52 /* NovelBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NovelBook.swift; sourceTree = "<group>"; };
+		B28C37F41D0D05670071EC52 /* BookStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookStore.swift; sourceTree = "<group>"; };
+		B28C37F61D0D0BBE0071EC52 /* DiscountNovelBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscountNovelBook.swift; sourceTree = "<group>"; };
+		B28C37FA1D0D112C0071EC52 /* TechnicalBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TechnicalBook.swift; sourceTree = "<group>"; };
+		B28C37FC1D0D11620071EC52 /* ComputerBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComputerBook.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,16 +129,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B20F3C351D13D70F007E9E77 /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				B20F3C361D13D738007E9E77 /* Human.swift */,
+				B20F3C381D13D880007E9E77 /* BlackHuman.swift */,
+				B20F3C3A1D13DA31007E9E77 /* WhiteHuman.swift */,
+				B20F3C3C1D13DA7A007E9E77 /* YellowHuman.swift */,
+				B20F3C3E1D13DB5C007E9E77 /* HumanFactory.swift */,
+			);
+			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
 		B21F2AB51CFEB758008E3419 /* OpenClosedPrinciple */ = {
 			isa = PBXGroup;
 			children = (
 				B21F2AB61CFEB774008E3419 /* OpenClosedPrinciple.swift */,
-				B21F2AB81CFEBAEE008E3419 /* BankProcess.swift */,
-				B21F2ABA1CFEBB7E008E3419 /* DepositProcess.swift */,
-				B21F2ABC1CFEBC21008E3419 /* TransferProcess.swift */,
-				B21F2ABE1CFEBC5A008E3419 /* DrawMoneyProcess.swift */,
-				B21F2AC21CFEBE5D008E3419 /* FundProcess.swift */,
-				B21F2AC01CFEBC9C008E3419 /* BankStaff.swift */,
+				B28C37F01D0D02710071EC52 /* Book.swift */,
+				B28C37FA1D0D112C0071EC52 /* TechnicalBook.swift */,
+				B28C37F21D0D03350071EC52 /* NovelBook.swift */,
+				B28C37F41D0D05670071EC52 /* BookStore.swift */,
+				B28C37FC1D0D11620071EC52 /* ComputerBook.swift */,
+				B28C37F61D0D0BBE0071EC52 /* DiscountNovelBook.swift */,
 			);
 			path = OpenClosedPrinciple;
 			sourceTree = "<group>";
@@ -190,6 +212,7 @@
 				B284D6DD1CF550BE00CB6463 /* ChainOfResponsibility */,
 				B284D6F51CF5519D00CB6463 /* DependInversionPrinciple */,
 				B284D6E21CF5514600CB6463 /* LiskovSubstitutionPrinciple */,
+				B20F3C351D13D70F007E9E77 /* FactoryMethod */,
 				B284D6CF1CF5502F00CB6463 /* Main.storyboard */,
 				B284D6D21CF5502F00CB6463 /* Assets.xcassets */,
 				B284D6D41CF5502F00CB6463 /* LaunchScreen.storyboard */,
@@ -310,27 +333,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				B23DB4B01D06B3440002FD6E /* Wizard.swift in Sources */,
+				B20F3C3D1D13DA7A007E9E77 /* YellowHuman.swift in Sources */,
+				B28C37F51D0D05670071EC52 /* BookStore.swift in Sources */,
+				B28C37F31D0D03350071EC52 /* NovelBook.swift in Sources */,
 				B284D6F91CF5519D00CB6463 /* Driver.swift in Sources */,
 				B236D7B01CF7F35400DD46D3 /* AwesomePrettyGirl.swift in Sources */,
+				B28C37FB1D0D112C0071EC52 /* TechnicalBook.swift in Sources */,
 				B284D6FF1CF554EF00CB6463 /* LiskovSubstitutionPrinciple.swift in Sources */,
 				B236D7B41CF7F55700DD46D3 /* Girl.swift in Sources */,
 				B284D6FD1CF5543900CB6463 /* DesignPattern.swift in Sources */,
 				B246D5B21D06AB3200967C07 /* FemaleStudent.swift in Sources */,
 				B284D6F81CF5519D00CB6463 /* Benz.swift in Sources */,
 				B21F2AB71CFEB774008E3419 /* OpenClosedPrinciple.swift in Sources */,
-				B21F2AB91CFEBAEE008E3419 /* BankProcess.swift in Sources */,
 				B284D6F21CF5514600CB6463 /* Snipper.swift in Sources */,
 				B284D6EE1CF5514600CB6463 /* Gun.swift in Sources */,
+				B28C37F11D0D02710071EC52 /* Book.swift in Sources */,
+				B28C37F71D0D0BBE0071EC52 /* DiscountNovelBook.swift in Sources */,
 				B284D6E01CF550BE00CB6463 /* ATM.swift in Sources */,
 				B284D6CE1CF5502F00CB6463 /* ViewController.swift in Sources */,
-				B21F2ABD1CFEBC21008E3419 /* TransferProcess.swift in Sources */,
 				B236D7B61CF7FB8C00DD46D3 /* InterfaceSegregation.swift in Sources */,
 				B284D7031CF5595200CB6463 /* Vehicle.swift in Sources */,
+				B20F3C3F1D13DB5C007E9E77 /* HumanFactory.swift in Sources */,
 				B23DB4AE1D06B29A0002FD6E /* InstallSoftware.swift in Sources */,
+				B20F3C3B1D13DA31007E9E77 /* WhiteHuman.swift in Sources */,
 				B236D7A61CF7EA1100DD46D3 /* GoodBody.swift in Sources */,
+				B20F3C371D13D738007E9E77 /* Human.swift in Sources */,
 				B236D7AA1CF7EF5100DD46D3 /* GreatTempermament.swift in Sources */,
+				B28C37FD1D0D11620071EC52 /* ComputerBook.swift in Sources */,
+				B20F3C391D13D880007E9E77 /* BlackHuman.swift in Sources */,
 				B284D6E11CF550BE00CB6463 /* Money.swift in Sources */,
-				B21F2AC11CFEBC9C008E3419 /* BankStaff.swift in Sources */,
 				B284D7051CF559A000CB6463 /* BMW.swift in Sources */,
 				B284D6F41CF5514600CB6463 /* Son.swift in Sources */,
 				B246D5B41D06AB8C00967C07 /* SchoolClass.swift in Sources */,
@@ -339,9 +370,7 @@
 				B284D6EF1CF5514600CB6463 /* HandGun.swift in Sources */,
 				B284D7071CF559D400CB6463 /* Discovery4.swift in Sources */,
 				B284D6CC1CF5502F00CB6463 /* AppDelegate.swift in Sources */,
-				B21F2AC31CFEBE5D008E3419 /* FundProcess.swift in Sources */,
 				B236D7AC1CF7EF8100DD46D3 /* PrettyGirl.swift in Sources */,
-				B21F2ABB1CFEBB7E008E3419 /* DepositProcess.swift in Sources */,
 				B284D7011CF5555500CB6463 /* DependInversionPrinciple.swift in Sources */,
 				B246D5AA1D06A90000967C07 /* Teacher.swift in Sources */,
 				B284D6F01CF5514600CB6463 /* MachineGun.swift in Sources */,
@@ -352,7 +381,6 @@
 				B246D5A81D06A89B00967C07 /* LeastKnowledgePrinciple.swift in Sources */,
 				B284D6ED1CF5514600CB6463 /* Father.swift in Sources */,
 				B246D5AC1D06A9A000967C07 /* GroupLeader.swift in Sources */,
-				B21F2ABF1CFEBC5A008E3419 /* DrawMoneyProcess.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +492,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DesignPattern/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.max.anywhere.DesignPattern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -475,6 +504,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DesignPattern/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.max.anywhere.DesignPattern;
 				PRODUCT_NAME = "$(TARGET_NAME)";

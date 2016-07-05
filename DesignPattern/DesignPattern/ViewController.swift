@@ -21,10 +21,10 @@ class ViewController: UIViewController {
 //        dependInversionPrinciple.run()
 //        let interfaceSegregationPrinciple = InterfaceSegregation()
 //        interfaceSegregationPrinciple.run()
-//        let openClosedPrinciple = OpenClosedPrinciple()
-//        openClosedPrinciple.run()
-        let leastKnowledgePrinciple = LeastKnowledgePrinciple()
-        leastKnowledgePrinciple.run()
+        let openClosedPrinciple = OpenClosedPrinciple()
+        openClosedPrinciple.run()
+//        let leastKnowledgePrinciple = LeastKnowledgePrinciple()
+//        leastKnowledgePrinciple.run()
     }
 
     override func didReceiveMemoryWarning() {
