@@ -9,7 +9,7 @@
 
 protocol CastingDirector {
     
-    func search(girl: Girl)
+    func search(_ girl: Girl)
     func show()
     
 }

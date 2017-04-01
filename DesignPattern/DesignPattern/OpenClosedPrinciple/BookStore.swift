@@ -12,7 +12,7 @@ import Foundation
 
 class BookSotre {
     
-    private var bookList = [Book]()
+    fileprivate var bookList = [Book]()
     
     init() {
         bookList.append(DiscountNovelBook(name: "天龙八部", price: 2800, author: "金庸"))

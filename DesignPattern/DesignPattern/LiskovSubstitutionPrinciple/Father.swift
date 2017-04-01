@@ -10,7 +10,7 @@ import Foundation
 
 class Father {
     
-    func doSomething(maps: NSMutableArray) {
+    func doSomething(_ maps: NSMutableArray) {
         print("父类被执行 #####################")
         print(maps)
     }

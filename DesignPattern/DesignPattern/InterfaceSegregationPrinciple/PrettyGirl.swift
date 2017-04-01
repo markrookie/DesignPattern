@@ -9,7 +9,7 @@
 
 class PrettyGirl: Girl, GoodBody {
     
-    private var name = ""
+    fileprivate var name = ""
     
     init(name: String) {
         self.name = name

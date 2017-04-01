@@ -18,7 +18,7 @@ class Money {
         self.nextMoney = biggerFaceValueMoney
     }
     
-    func withdraw(withdrawValue: Int) {
+    func withdraw(_ withdrawValue: Int) {
         var lWithdrawValue = withdrawValue
         var lQuantity = self.quantity
         while isAvailableForWithdrawValue(lWithdrawValue) {
@@ -40,7 +40,7 @@ class Money {
         print("在\(faceValue)面值完成提款")
     }
     
-    private func askNextFaceValue(withdrawValue: Int) {
+    fileprivate func askNextFaceValue(_ withdrawValue: Int) {
         if let _nextMoney = self.nextMoney {
             _nextMoney.withdraw(withdrawValue)
             return
@@ -48,7 +48,7 @@ class Money {
         print("糟糕，没法取现！")
     }
     
-    private func isAvailableForWithdrawValue(withDrawValue: Int) -> Bool {
+    fileprivate func isAvailableForWithdrawValue(_ withDrawValue: Int) -> Bool {
         return withDrawValue / faceValue > 0
     }
 }

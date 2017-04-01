@@ -9,7 +9,7 @@
 
 class AwesomePrettyGilr: Girl, GoodBody, GreatTempermament {
     
-    private var name = ""
+    fileprivate var name = ""
     
     init(name: String) {
         self.name = name

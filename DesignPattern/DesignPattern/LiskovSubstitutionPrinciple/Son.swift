@@ -10,7 +10,7 @@ import Foundation
 
 class Son: Father {
     
-    override func doSomething(maps: NSArray) {
+    override func doSomething(_ maps: NSArray) {
         print("子类被执行 ###################################")
         print(maps)
     }

@@ -9,9 +9,9 @@
 
 class FoxCastingDirector: CastingDirector {
     
-    private var showGirl: Girl!
+    fileprivate var showGirl: Girl!
     
-    func search(girl: Girl) {
+    func search(_ girl: Girl) {
         self.showGirl = girl
     }
     

@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D1CDAC51E8E673700183D91 /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1CDAC41E8E673700183D91 /* Duck.swift */; };
+		4D1CDAC71E8E68C000183D91 /* RedHeadDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1CDAC61E8E68C000183D91 /* RedHeadDuck.swift */; };
+		4D9C67021E8F48790005A5E8 /* GreenHeadDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9C67011E8F48790005A5E8 /* GreenHeadDuck.swift */; };
+		4D9C67061E8F4E790005A5E8 /* FlyBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9C67051E8F4E790005A5E8 /* FlyBehaviour.swift */; };
+		4D9C67081E8F4F610005A5E8 /* QuackBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9C67071E8F4F610005A5E8 /* QuackBehaviour.swift */; };
+		4D9C670A1E8F54370005A5E8 /* FlyWithWings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9C67091E8F54370005A5E8 /* FlyWithWings.swift */; };
+		4D9C670C1E8F54700005A5E8 /* FlyNoWay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9C670B1E8F54700005A5E8 /* FlyNoWay.swift */; };
+		4D9C670E1E8F54C60005A5E8 /* Quack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9C670D1E8F54C60005A5E8 /* Quack.swift */; };
+		4D9C67101E8F54FE0005A5E8 /* Squeak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9C670F1E8F54FE0005A5E8 /* Squeak.swift */; };
+		4D9C67121E8F55590005A5E8 /* MuteQuack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9C67111E8F55590005A5E8 /* MuteQuack.swift */; };
+		4D9C67141E8F59DA0005A5E8 /* ModelDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9C67131E8F59DA0005A5E8 /* ModelDuck.swift */; };
+		4D9C67161E8F5C8C0005A5E8 /* FlyRocketPowered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9C67151E8F5C8C0005A5E8 /* FlyRocketPowered.swift */; };
+		4D9C67181E8F5D430005A5E8 /* QuackWithLoudSpeaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9C67171E8F5D430005A5E8 /* QuackWithLoudSpeaker.swift */; };
 		B20F3C371D13D738007E9E77 /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20F3C361D13D738007E9E77 /* Human.swift */; };
 		B20F3C391D13D880007E9E77 /* BlackHuman.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20F3C381D13D880007E9E77 /* BlackHuman.swift */; };
 		B20F3C3B1D13DA31007E9E77 /* WhiteHuman.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20F3C3A1D13DA31007E9E77 /* WhiteHuman.swift */; };
@@ -62,6 +75,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D1CDAC41E8E673700183D91 /* Duck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
+		4D1CDAC61E8E68C000183D91 /* RedHeadDuck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedHeadDuck.swift; sourceTree = "<group>"; };
+		4D9C67011E8F48790005A5E8 /* GreenHeadDuck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreenHeadDuck.swift; sourceTree = "<group>"; };
+		4D9C67051E8F4E790005A5E8 /* FlyBehaviour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyBehaviour.swift; sourceTree = "<group>"; };
+		4D9C67071E8F4F610005A5E8 /* QuackBehaviour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuackBehaviour.swift; sourceTree = "<group>"; };
+		4D9C67091E8F54370005A5E8 /* FlyWithWings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyWithWings.swift; sourceTree = "<group>"; };
+		4D9C670B1E8F54700005A5E8 /* FlyNoWay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyNoWay.swift; sourceTree = "<group>"; };
+		4D9C670D1E8F54C60005A5E8 /* Quack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Quack.swift; sourceTree = "<group>"; };
+		4D9C670F1E8F54FE0005A5E8 /* Squeak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Squeak.swift; sourceTree = "<group>"; };
+		4D9C67111E8F55590005A5E8 /* MuteQuack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuteQuack.swift; sourceTree = "<group>"; };
+		4D9C67131E8F59DA0005A5E8 /* ModelDuck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelDuck.swift; sourceTree = "<group>"; };
+		4D9C67151E8F5C8C0005A5E8 /* FlyRocketPowered.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyRocketPowered.swift; sourceTree = "<group>"; };
+		4D9C67171E8F5D430005A5E8 /* QuackWithLoudSpeaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuackWithLoudSpeaker.swift; sourceTree = "<group>"; };
 		B20F3C361D13D738007E9E77 /* Human.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Human.swift; sourceTree = "<group>"; };
 		B20F3C381D13D880007E9E77 /* BlackHuman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlackHuman.swift; sourceTree = "<group>"; };
 		B20F3C3A1D13DA31007E9E77 /* WhiteHuman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteHuman.swift; sourceTree = "<group>"; };
@@ -129,6 +155,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D1CDAC31E8E672900183D91 /* EncapsulateChange */ = {
+			isa = PBXGroup;
+			children = (
+				4D1CDAC41E8E673700183D91 /* Duck.swift */,
+				4D9C67051E8F4E790005A5E8 /* FlyBehaviour.swift */,
+				4D9C67071E8F4F610005A5E8 /* QuackBehaviour.swift */,
+				4D1CDAC61E8E68C000183D91 /* RedHeadDuck.swift */,
+				4D9C67091E8F54370005A5E8 /* FlyWithWings.swift */,
+				4D9C67151E8F5C8C0005A5E8 /* FlyRocketPowered.swift */,
+				4D9C670B1E8F54700005A5E8 /* FlyNoWay.swift */,
+				4D9C670D1E8F54C60005A5E8 /* Quack.swift */,
+				4D9C670F1E8F54FE0005A5E8 /* Squeak.swift */,
+				4D9C67131E8F59DA0005A5E8 /* ModelDuck.swift */,
+				4D9C67171E8F5D430005A5E8 /* QuackWithLoudSpeaker.swift */,
+				4D9C67111E8F55590005A5E8 /* MuteQuack.swift */,
+				4D9C67011E8F48790005A5E8 /* GreenHeadDuck.swift */,
+			);
+			path = EncapsulateChange;
+			sourceTree = "<group>";
+		};
 		B20F3C351D13D70F007E9E77 /* FactoryMethod */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +252,7 @@
 				B284D6CB1CF5502F00CB6463 /* AppDelegate.swift */,
 				B284D6CD1CF5502F00CB6463 /* ViewController.swift */,
 				B284D6FC1CF5543900CB6463 /* DesignPattern.swift */,
+				4D1CDAC31E8E672900183D91 /* EncapsulateChange */,
 				B246D5A61D06A86E00967C07 /* LeastKnowledgePrinciple */,
 				B21F2AB51CFEB758008E3419 /* OpenClosedPrinciple */,
 				B236D7A21CF7E68200DD46D3 /* InterfaceSegregationPrinciple */,
@@ -288,11 +335,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Max.;
 				TargetAttributes = {
 					B284D6C71CF5502F00CB6463 = {
 						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -332,9 +380,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1CDAC71E8E68C000183D91 /* RedHeadDuck.swift in Sources */,
 				B23DB4B01D06B3440002FD6E /* Wizard.swift in Sources */,
 				B20F3C3D1D13DA7A007E9E77 /* YellowHuman.swift in Sources */,
 				B28C37F51D0D05670071EC52 /* BookStore.swift in Sources */,
+				4D9C67021E8F48790005A5E8 /* GreenHeadDuck.swift in Sources */,
 				B28C37F31D0D03350071EC52 /* NovelBook.swift in Sources */,
 				B284D6F91CF5519D00CB6463 /* Driver.swift in Sources */,
 				B236D7B01CF7F35400DD46D3 /* AwesomePrettyGirl.swift in Sources */,
@@ -348,7 +398,9 @@
 				B284D6F21CF5514600CB6463 /* Snipper.swift in Sources */,
 				B284D6EE1CF5514600CB6463 /* Gun.swift in Sources */,
 				B28C37F11D0D02710071EC52 /* Book.swift in Sources */,
+				4D9C670C1E8F54700005A5E8 /* FlyNoWay.swift in Sources */,
 				B28C37F71D0D0BBE0071EC52 /* DiscountNovelBook.swift in Sources */,
+				4D9C67161E8F5C8C0005A5E8 /* FlyRocketPowered.swift in Sources */,
 				B284D6E01CF550BE00CB6463 /* ATM.swift in Sources */,
 				B284D6CE1CF5502F00CB6463 /* ViewController.swift in Sources */,
 				B236D7B61CF7FB8C00DD46D3 /* InterfaceSegregation.swift in Sources */,
@@ -360,10 +412,12 @@
 				B20F3C371D13D738007E9E77 /* Human.swift in Sources */,
 				B236D7AA1CF7EF5100DD46D3 /* GreatTempermament.swift in Sources */,
 				B28C37FD1D0D11620071EC52 /* ComputerBook.swift in Sources */,
+				4D9C670E1E8F54C60005A5E8 /* Quack.swift in Sources */,
 				B20F3C391D13D880007E9E77 /* BlackHuman.swift in Sources */,
 				B284D6E11CF550BE00CB6463 /* Money.swift in Sources */,
 				B284D7051CF559A000CB6463 /* BMW.swift in Sources */,
 				B284D6F41CF5514600CB6463 /* Son.swift in Sources */,
+				4D9C67101E8F54FE0005A5E8 /* Squeak.swift in Sources */,
 				B246D5B41D06AB8C00967C07 /* SchoolClass.swift in Sources */,
 				B284D6EC1CF5514600CB6463 /* AUG.swift in Sources */,
 				B284D6F11CF5514600CB6463 /* RifleGun.swift in Sources */,
@@ -371,15 +425,22 @@
 				B284D7071CF559D400CB6463 /* Discovery4.swift in Sources */,
 				B284D6CC1CF5502F00CB6463 /* AppDelegate.swift in Sources */,
 				B236D7AC1CF7EF8100DD46D3 /* PrettyGirl.swift in Sources */,
+				4D9C67181E8F5D430005A5E8 /* QuackWithLoudSpeaker.swift in Sources */,
 				B284D7011CF5555500CB6463 /* DependInversionPrinciple.swift in Sources */,
+				4D9C67061E8F4E790005A5E8 /* FlyBehaviour.swift in Sources */,
+				4D1CDAC51E8E673700183D91 /* Duck.swift in Sources */,
 				B246D5AA1D06A90000967C07 /* Teacher.swift in Sources */,
+				4D9C67081E8F4F610005A5E8 /* QuackBehaviour.swift in Sources */,
 				B284D6F01CF5514600CB6463 /* MachineGun.swift in Sources */,
 				B236D7BA1CF7FC3400DD46D3 /* FoxCastingDirector.swift in Sources */,
 				B284D6F31CF5514600CB6463 /* Soldier.swift in Sources */,
 				B236D7A41CF7E8C000DD46D3 /* CastingDirector.swift in Sources */,
 				B284D6FB1CF5542700CB6463 /* ChainOfResponsibility.swift in Sources */,
+				4D9C67141E8F59DA0005A5E8 /* ModelDuck.swift in Sources */,
+				4D9C670A1E8F54370005A5E8 /* FlyWithWings.swift in Sources */,
 				B246D5A81D06A89B00967C07 /* LeastKnowledgePrinciple.swift in Sources */,
 				B284D6ED1CF5514600CB6463 /* Father.swift in Sources */,
+				4D9C67121E8F55590005A5E8 /* MuteQuack.swift in Sources */,
 				B246D5AC1D06A9A000967C07 /* GroupLeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,8 +480,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -463,8 +526,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -483,6 +548,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -496,6 +562,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.max.anywhere.DesignPattern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -508,6 +575,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.max.anywhere.DesignPattern;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

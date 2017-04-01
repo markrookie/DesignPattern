@@ -18,7 +18,7 @@ class SchoolClass {
     var girls: [FemaleStudent] = []
     
     init() {
-        for var index = 0; index < girlsCount; index++ {
+        for index in 0 ..< girlsCount {
             let girl = FemaleStudent()
             girl.name = "Lucy \(index)"
             girl.id = index

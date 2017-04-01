@@ -9,9 +9,9 @@
 
 class BlackHuman: Human {
     
-    private var iName = ""
-    private var iNationality = ""
-    private var iSkinColor = ""
+    fileprivate var iName = ""
+    fileprivate var iNationality = ""
+    fileprivate var iSkinColor = ""
     
     init(name: String, nationality: String, skinColor: String) {
         self.iName = name

@@ -9,9 +9,9 @@
 
 class NovelBook: Book {
     
-    private var iName: String
-    private var iPrice: Int
-    private var iAuthor: String
+    fileprivate var iName: String
+    fileprivate var iPrice: Int
+    fileprivate var iAuthor: String
     
     init(name: String, price: Int, author: String) {
         self.iName = name

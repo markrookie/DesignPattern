@@ -10,9 +10,9 @@ import Foundation
 
 class Soldier {
     
-    private var gun: Gun?
+    fileprivate var gun: Gun?
     
-    func setGun(_gun: Gun?) {
+    func setGun(_ _gun: Gun?) {
         self.gun = _gun
     }
     

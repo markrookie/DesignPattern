@@ -9,15 +9,15 @@
 
 class HumanFactory {
     
-    func createHuman(className: String) -> Human {
-        
-        var human: Human?
-        
-        do {
-            human = 
-        } catch let error as NSError {
-            
-        }
-        
-    }
+//    func createHuman(_ className: String) -> Human {
+//        
+//        var human: Human?
+//        
+//        do {
+//            human = 
+//        } catch let error as NSError {
+//            
+//        }
+//        
+//    }
 }

@@ -9,12 +9,12 @@
 
 class ATM {
 
-    private var hundred: Money
-    private var fifty: Money
-    private var twenty: Money
-    private var ten: Money
+    fileprivate var hundred: Money
+    fileprivate var fifty: Money
+    fileprivate var twenty: Money
+    fileprivate var ten: Money
     
-    private var startMoney: Money {
+    fileprivate var startMoney: Money {
         return self.hundred
     }
     
@@ -25,7 +25,7 @@ class ATM {
         self.ten = ten
     }
     
-    func canWithdraw(value: Int) -> String {
+    func canWithdraw(_ value: Int) -> String {
         return "Can withdraw: \(self.startMoney.withdraw(value))"
     }
 }

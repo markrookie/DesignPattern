@@ -13,17 +13,17 @@ import Foundation
 class Wizard {
     
     func stepOne() -> Int {
-        print("wizrd \(__FUNCTION__)")
+        print("wizrd \(#function)")
         return Int(arc4random_uniform(100))
     }
     
     func stepTwo() -> Int {
-        print("wizrd \(__FUNCTION__)")
+        print("wizrd \(#function)")
         return Int(arc4random_uniform(100))
     }
     
     func stepThree() -> Int {
-        print("wizrd \(__FUNCTION__)")
+        print("wizrd \(#function)")
         return Int(arc4random_uniform(100))
     }
     
@@ -37,7 +37,7 @@ class Wizard {
         }
     }
     
-    private func isSutisfy(value: Int) -> Bool {
+    fileprivate func isSutisfy(_ value: Int) -> Bool {
         return 50 < value
     }
     

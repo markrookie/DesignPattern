@@ -9,7 +9,7 @@
 
 class InstallSoftware {
     
-    func installWizard(wizard: Wizard) {
+    func installWizard(_ wizard: Wizard) {
         wizard.install()
     }
     

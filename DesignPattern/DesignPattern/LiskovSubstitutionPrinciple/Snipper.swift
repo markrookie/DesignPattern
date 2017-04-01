@@ -10,9 +10,9 @@ import Foundation
 
 class Snipper {
     
-    private var aug: AUG?
+    fileprivate var aug: AUG?
     
-    func setGun(_aug: AUG?) {
+    func setGun(_ _aug: AUG?) {
         self.aug = _aug
     }
     

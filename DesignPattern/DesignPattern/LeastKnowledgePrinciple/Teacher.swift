@@ -9,7 +9,7 @@
 
 class Teacher {
     
-    func command(groupLeader: GroupLeader) {
+    func command(_ groupLeader: GroupLeader) {
         groupLeader.countGirls()
     }
     

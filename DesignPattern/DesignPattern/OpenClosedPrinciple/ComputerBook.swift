@@ -9,10 +9,10 @@
 
 class ComputerBook: TechnicalBook {
     
-    private var iName: String
-    private var iPrice: Int
-    private var iAuthor: String
-    private var iScope: String
+    fileprivate var iName: String
+    fileprivate var iPrice: Int
+    fileprivate var iAuthor: String
+    fileprivate var iScope: String
     
     init(name: String, price: Int, author: String, scope: String) {
         self.iName = name
