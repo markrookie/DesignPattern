@@ -23,7 +23,7 @@ class ViewController: UIViewController {
 //        interfaceSegregationPrinciple.run()
 //        let openClosedPrinciple = OpenClosedPrinciple()
 //        openClosedPrinciple.run()
-//        let leastKnowledgePrinciple = LeastKnowledgePrinciple()
+        let leastKnowledgePrinciple = LeastKnowledgePrinciple()
 //        leastKnowledgePrinciple.run()
         
         let redHeadDuck = RedHeadDuck()
